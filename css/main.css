@@ -1,0 +1,163 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+body{
+    overflow: hidden;
+}
+.logo{
+    font-size: 400%;
+    margin-left: 2%;
+    color: #287AF3;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.lang_ch{
+    font-size: 100%;
+    margin-left: 80%;
+    display: inline;
+    z-index: 1;
+}
+.lang_ch a{
+    display: inline;
+    text-decoration: none;
+    color: darkslategray;
+}
+.circ_1{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background: #287AF3;
+    z-index: 1;
+    position: absolute;
+    left: 75%;
+    top: -5%;
+    overflow: hidden;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    filter: blur(200px);
+    animation-name: anime_1;
+    animation-duration: 4s;
+}
+@keyframes anime_1{
+    from{left: 75%; top: -5%;}
+    to{left: 50%; top: 20%;}
+    from{left: 50%; top: 20%;}
+    to{left: 75%; top: -5%;}
+}
+.circ_2{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background: #287AF3;
+    position: absolute;
+    right: 80%;
+    bottom: -20%;
+    z-index: 1;
+    filter: blur(200px);
+    animation-name: anime_2;
+    animation-duration: 4s;
+}
+@keyframes anime_2{
+    from{right: 40%; top: 20%; background: red;}
+    to{right: 80%; bottom: -20%; background: #287AF3;}
+}
+.big_text{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+}
+.coming{
+    font-size: 15px;
+    color: #287AF3;
+}
+.text{
+    color: black;
+    font-size: 60px;
+}
+p{
+    color: #596780;
+    font-size: 17px;
+}
+.box_ground {
+    width: 50%;
+    height: 100%;
+    display: inline;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}  
+.box_1 {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+.box_2 {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+.box_3 {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+.box_4 {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+.box_ground p{
+    display: inline;
+}
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #287AF3;
+    color: white;
+    margin-left: 46%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    margin-left: 30%;
+    margin-right: 37%;
+}
